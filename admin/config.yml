@@ -1,0 +1,19 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "interviews"
+    label: "Интервью и Статьи"
+    folder: "sections"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Формат", name: "layout", type: "hidden", default: "interview" }
+      - { label: "Заголовок статьи", name: "title", type: "string" }
+      - { label: "Дата публикации", name: "date", type: "datetime" }
+      - { label: "Краткое превью", name: "summary", type: "text" }
+      - { label: "Текст статьи", name: "body", type: "markdown" }
