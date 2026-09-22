@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ГАЛЕРЕЯ | ПОДПОЛЬНЫЙ ПЕТЕРБУРГ</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+    <!-- Шапка зина (копия для навигации) -->
+    <header class="zine-header">
+        <h1 class="zine-logo">ПОДПОЛЬНЫЙ ПЕТЕРБУРГ</h1>
+        <nav class="zine-nav">
+            <a href="../index.html">Манифест</a>
+            <a href="interviews.html">Интервью & Статьи</a>
+            <a href="gallery.html" class="active">Галерея & Граффити</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="gallery-intro">
+            <h2>АРТ-ДОКУМЕНТАЦИЯ</h2>
+            <p>Уличная фотография, несогласованный стрит-арт и холсты, зафиксированные в Питере. Каждая работа — это узел городской изнанки.</p>
+        </section>
+
+        <!-- Адаптивная панк-сетка галереи -->
+        <div class="art-grid">
+            
+            <!-- Объект 1: Ваша живопись/графика (h-entry) -->
+            <article class="h-entry art-item" id="series-spb">
+                <div class="art-image-wrapper">
+                    <img class="u-featured" src="../images/art/painting1.jpg" alt="Живопись Яроша Рыжкаускаса">
+                </div>
+                <div class="art-meta">
+                    <h3 class="p-name">«Текстуры Обводного»</h3>
+                    <p class="art-tech">Холст, масло / Графика</p>
+                    <div class="e-content">
+                        <p>Попытка передать давящую, но притягательную атмосферу кирпичных стен заброшенных заводов в районе Обводного канала.</p>
+                    </div>
+                    <span class="p-author">Jarosh Ryzhkauskas</span>
+                </div>
+            </article>
+
+            <!-- Объект 2: Фотография стрит-арта (h-entry) -->
+            <article class="h-entry art-item">
+                <div class="art-image-wrapper">
+                    <img class="u-featured" src="../images/graffiti/wall1.jpg" alt="Стрит-арт в Санкт-Петербурге">
+                </div>
+                <div class="art-meta">
+                    <h3 class="p-name">«Слой серого»</h3>
+                    <p class="art-tech">Уличный спот / Нелегальное автограф-граффити</p>
+                    <div class="e-content">
+                        <p>Кусок, зафиксированный в глухом дворе на Петроградской стороне за пару часов до того, как его закрасили коммунальные службы.</p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Объект 3: Фотография закоулков (h-entry) -->
+            <article class="h-entry art-item">
+                <div class="art-image-wrapper">
+                    <img class="u-featured" src="../images/photo/backyard1.jpg" alt="Двор-колодец">
+                </div>
+                <div class="art-meta">
+                    <h3 class="p-name">«Колодец Коломны»</h3>
+                    <p class="art-tech">Плёночное фото / 35мм</p>
+                    <div class="e-content">
+                        <p>Геометрия неба из питерского двора-колодца. Графика, созданная самой архитектурой города.</p>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </main>
+
+    <footer class="zine-footer">
+        <p>© 2026 Jarosh Ryzhkauskas. Сделано на Debian.</p>
+    </footer>
+
+</body>
+</html>
