@@ -55,23 +55,24 @@ img {
 }
 
 .nav {
-  text-align: center;            /* центрируем содержимое по горизонтали */
+  text-align: center;
   font-size: 1.1em;
-  letter-spacing: 0.15em;        /* разрядка между буквами — как в веб 1.0 */
-  text-transform: uppercase;     /* КАПСОМ */
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
   margin: 1.5em 0;
 }
 
 .nav a {
-  color: #000;                   /* чёрный текст */
-  text-decoration: none;         /* убираем стандартное подчёркивание ссылок */
-  padding: 0.3em 0.6em;          /* отступы внутри — чтобы фон выглядел как плашка */
-  transition: background 0.15s;  /* плавная смена фона, не резкая */
+  color: #000;
+  text-decoration: none;
+  padding: 0.3em 0.6em;
+  transition: background 0.15s;
+  font-weight: bold;
 }
 
 .nav a:hover {
-  background: #FFCC00;           /* тот же оранжевый, что и в favicon */
-  color: #000;                   /* буквы остаются чёрными (на случай, если браузер перекрасит) */
+  background: #FFCC00;
+  color: #000;
 }
 
 img {
