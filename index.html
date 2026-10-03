@@ -13,7 +13,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- ^ Чтобы на телефоне страница выглядела нормально, а не как увеличенный в 10 раз десктоп. -->
 
-  <title>RyzhkauskaS</title>
+  <title>Ryzhkauskas</title>
   <!-- ^ Надпись на вкладке браузера. Не заголовок страницы, а именно вкладка. -->
 
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='16' fill='%23FFCC00'/><text x='16' y='25' font-family='Helvetica,Arial,sans-serif' font-size='26' font-weight='bold' text-anchor='middle' fill='%23000'>R</text></svg>">
@@ -33,7 +33,12 @@
   <p>Привет. Это мой вебзин. Про город, его обитателей и, конечно, про его закоулки. Стены, холсты и надписи в парадных и на чёрных лестницах. </p>
   <!-- ^ <p> — абзац (paragraph). Каждый абзац оборачивайте в <p></p>. -->
 
-  <p>Мы все здесь рисуем и не только. Просто напоминание.</p>
+  <p class="nav">
+    <a href="city.html">город</a> ·
+    <a href="pictures.html">картинки</a> ·
+    <a href="tales.html">байки</a>
+  </p>
+  <!-- ^ Три ссылки-раздела. class="nav" — метка для CSS, чтобы оформить именно этот абзац. -->
 
   <img src="images/pervomayskaya.png" alt="Первомайская ТЭЦ">
   <!-- ^ Картинка. src — путь к файлу (папка images рядом с index.html).
